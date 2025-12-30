@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "Deployment"
+		},
+		{
+			"path": "data"
+		},
+		{
+			"path": "docs"
+		},
+		{
+			"path": "models"
+		},
+		{
+			"path": "notebooks"
+		},
+		{
+			"path": "references"
+		},
+		{
+			"path": "reports"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "predicting human emotions using AI from brainwaves"
+version = "0.0.1"
+description = "This project aims to design an intelligent system that predicts emotional states\u2014such as happiness, sadness, and fear\u2014from patients\u2019 brainwave (EEG) signals. By analyzing neural patterns and applying machine learning algorithms, the system can accurately classify these emotions in real time. The objective is to assist healthcare professionals in understanding patients\u2019 emotional conditions, especially for those who cannot easily communicate their feelings, thereby improving emotional awareness and patient-centered care"
+authors = [
+  { name = "Rohit Kumar Yadav" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.12.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["predicting human emotions using AI from brainwaves"]
+include = ["pyproject.toml", "predicting human emotions using AI from brainwaves/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["predicting human emotions using AI from brainwaves"]
+force-sort-within-sections = true
+
