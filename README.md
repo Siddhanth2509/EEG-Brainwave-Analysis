@@ -151,7 +151,7 @@ Ensure you have the following installed:
 
 ```bash
 # Clone repository
-git clone https://github.com/rohitkumyadav/predicting-human-emotions-using-AI-from-brainwaves.git
+git clone https://github.com/Siddhanth2509/EEG-Brainwave-Analysis.git
 
 # Navigate to project
 cd predicting-human-emotions-using-AI-from-brainwaves
